@@ -60,6 +60,11 @@ form {
         font-weight: 500;
     }
 
+    label {
+        visibility: hidden;
+        position: absolute;
+    }
+
     input {
         cursor: pointer;
         font-size: 1rem;

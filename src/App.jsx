@@ -29,7 +29,7 @@ function App() {
   window.addEventListener('resize', placeholderTextFunc)
 
   useEffect(() => {
-    fetchData(true)
+    // fetchData(true)
   }, [])
 
   function customIcon() {
@@ -132,12 +132,14 @@ function App() {
         <form noValidate onSubmit={(e) => submitIP(e)}>
           <span
             onClick={() => input.current.focus()}>{errMsg}</span>
+          <label htmlFor="input">IP addres</label>
           <input
             type="text"
             value={userInput}
             placeholder={placeholderText}
             onChange={(e) => onChange(e)}
             onFocus={onFocus}
+            id='input'
             required
             ref={input}
             className={errMsg ? 'err' : null}
