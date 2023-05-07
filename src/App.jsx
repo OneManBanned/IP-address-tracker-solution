@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 import { useMap } from 'react-leaflet/hooks'
+import markerIcon from './assets/icon-location.svg'
 import { MapContainer, TileLayer, Marker } from 'react-leaflet'
 import L from 'leaflet'
 
@@ -28,12 +29,12 @@ function App() {
   window.addEventListener('resize', placeholderTextFunc)
 
   useEffect(() => {
-    fetchData(true)
+    // fetchData(true)
   }, [])
 
   function customIcon() {
     return L.icon({
-      iconUrl: '/images/icon-location.svg',
+      iconUrl: `${markerIcon}`,
       iconSize: [46, 56]
     })
   }
@@ -53,7 +54,6 @@ function App() {
         throw new Error(res.status);
       })
       .then(data => {
-        console.log(data)
         setUserCoordinates([data.location.lat, data.location.lng])
         setUserData({
           IP: data.ip,
