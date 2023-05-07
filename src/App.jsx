@@ -29,7 +29,7 @@ function App() {
   window.addEventListener('resize', placeholderTextFunc)
 
   useEffect(() => {
-    // fetchData(true)
+    fetchData(true)
   }, [])
 
   function customIcon() {
