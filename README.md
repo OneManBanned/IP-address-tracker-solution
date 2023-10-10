@@ -21,7 +21,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [[Add solution URL here](https://www.frontendmentor.io/solutions/ip-address-tracker-solution-O_aaM1Am8U)]([https://your-solution-url.com](https://www.frontendmentor.io/solutions/ip-address-tracker-solution-O_aaM1Am8U))
-- Live Site URL: [[Add live site URL here](https://onemanbanned.github.io/IP-address-tracker-solution/)](https://your-live-site-url.com)
+- Live Site URL: [[Add live site URL here](https://onemanbanned.github.io/IP-address-tracker-solution/)]([https://your-live-site-url.com](https://onemanbanned.github.io/IP-address-tracker-solution/))
 
 ## My process
 
